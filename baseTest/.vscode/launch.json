@@ -1,0 +1,84 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-A<baseTest>",
+            "request": "launch",
+            "mainClass": "Static.A",
+            "projectName": "baseTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-B<baseTest>",
+            "request": "launch",
+            "mainClass": "Static.B",
+            "projectName": "baseTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HashMapStructure<baseTest>",
+            "request": "launch",
+            "mainClass": "hashTest.HashMapStructure",
+            "projectName": "baseTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FileDemo<baseTest>",
+            "request": "launch",
+            "mainClass": "io.FileDemo",
+            "projectName": "baseTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkListTest<baseTest>",
+            "request": "launch",
+            "mainClass": "linkList.LinkListTest",
+            "projectName": "baseTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-recursionTest<baseTest>",
+            "request": "launch",
+            "mainClass": "recursion.recursionTest",
+            "projectName": "baseTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TreadSyncTest<baseTest>",
+            "request": "launch",
+            "mainClass": "thread.TreadSyncTest",
+            "projectName": "baseTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-callableTest<baseTest>",
+            "request": "launch",
+            "mainClass": "thread.callableTest",
+            "projectName": "baseTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-runnableTest<baseTest>",
+            "request": "launch",
+            "mainClass": "thread.runnableTest",
+            "projectName": "baseTest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-threadTest<baseTest>",
+            "request": "launch",
+            "mainClass": "thread.threadTest",
+            "projectName": "baseTest"
+        }
+    ]
+}
